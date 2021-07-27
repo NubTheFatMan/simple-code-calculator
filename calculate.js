@@ -2,7 +2,7 @@ let useWhitelist = true;
 let blacklistedTypes = ["png", "txt", "dll"]; // If useWhitelist is false, any files with these extensions are only counted as a file, not as chars, lines, etc
 let whitelistedTypes = ['cs', 'cpp', 'js', 'lua']; // If useWhitelist is true, only these file's characters, lines, etc are read. The rest are just counted as a file
 
-let calculate = "Rain-World-Drought-master"; // The folder to be calculating. Relative to wherever you put this file
+let calculate = "folder-to-calculate"; // The folder to be calculating. Relative to wherever you put this file
 
 // No more config after this point ( ͡° ͜ʖ ͡°)
 //------------------------------------------
