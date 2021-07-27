@@ -1,0 +1,2 @@
+node "calculate.js"
+pause
